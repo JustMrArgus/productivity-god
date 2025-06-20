@@ -11,6 +11,10 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
   </head>
   <body>
     <header class="page-header">
@@ -28,17 +32,21 @@
     <div class="task-list-container task-list-container--undone">
       <h2 class="task-list-container__caption">Tasks</h2>
       <ul class="task-list-container__list task-list-container__list--undone">
-        <li class="task-list-container__item">Learn React</li>
-        <li class="task-list-container__item">Learn React Native</li>
-        <li class="task-list-container__item">Learn Next.js</li>
+        <li class="task-list-container__item">
+          <input type="checkbox" class="task-checkbox" />Learn React<button>
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </li>
       </ul>
     </div>
     <div class="task-list-container task-list-container--done">
       <h2 class="task-list-container__caption">Done tasks</h2>
       <ul class="task-list-container__list task-list-container__list--done">
-        <li class="task-list-container__item">Learn React</li>
-        <li class="task-list-container__item">Learn React Native</li>
-        <li class="task-list-container__item">Learn Next.js</li>
+        <li class="task-list-container__item">
+          <input type="checkbox" class="task-checkbox" />Learn React<button>
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </li>
       </ul>
     </div>
     <script src="scripts.js"></script>
