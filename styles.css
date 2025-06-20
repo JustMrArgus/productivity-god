@@ -1,0 +1,18 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+:root {
+  --navy-dark: #27374d;
+  --navy: #526d82;
+  --navy-light: #9db2bf;
+  --navy-xlight: #dde6ed;
+}
