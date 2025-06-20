@@ -25,12 +25,20 @@
       />
       <button type="submit" class="add-task-form__button">+</button>
     </form>
-    <div class="task-list-container">
+    <div class="task-list-container task-list-container--undone">
       <h2 class="task-list-container__caption">Tasks</h2>
-      <ul class="task-list-container__list">
-        <li class="task-list-container__list_item">Learn React</li>
-        <li class="task-list-container__list_item">Learn React Native</li>
-        <li class="task-list-container__list_item">Learn Next.js</li>
+      <ul class="task-list-container__list task-list-container__list--undone">
+        <li class="task-list-container__item">Learn React</li>
+        <li class="task-list-container__item">Learn React Native</li>
+        <li class="task-list-container__item">Learn Next.js</li>
+      </ul>
+    </div>
+    <div class="task-list-container task-list-container--done">
+      <h2 class="task-list-container__caption">Done tasks</h2>
+      <ul class="task-list-container__list task-list-container__list--done">
+        <li class="task-list-container__item">Learn React</li>
+        <li class="task-list-container__item">Learn React Native</li>
+        <li class="task-list-container__item">Learn Next.js</li>
       </ul>
     </div>
     <script src="scripts.js"></script>
