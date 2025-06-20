@@ -11,13 +11,34 @@ html {
 }
 
 :root {
-  --navy-dark: #27374d;
-  --navy: #526d82;
-  --navy-light: #9db2bf;
-  --navy-xlight: #dde6ed;
+  /* Light theme */
+  --light-primary-color: #ffffff;
+  --light-text-color: #4f4f4f;
+  --light-secondary-color-grey: #9ca3af;
+  --light-secondary-color-blue: #3584e4;
+
+  /* Dark theme */
+  --dark-primary-color: #1e1e1e;
+  --dark-text-color: #e0e0e0;
+  --dark-secondary-color-grey: #6b7280;
+  --dark-secondary-color-blue: #4ea0f0;
 }
 
 body {
-  background-color: var(--navy-dark);
-  color: var(--navy-xlight);
+  background-color: var(--light-primary-color);
+  color: var(--light-text-color);
+}
+
+.add-task-form,
+.task-list-container {
+  background-color: var(--navy);
+}
+
+.add-task-form {
+  margin-top: 5em;
+  margin-bottom: 2em;
+}
+
+.add-task-form__label {
+  display: block;
 }
