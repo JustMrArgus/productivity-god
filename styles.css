@@ -28,6 +28,8 @@ body {
   background-color: var(--light-primary-color);
   color: var(--light-text-color);
   font-family: Roboto;
+  padding-right: 2em;
+  padding-left: 2em;
 }
 
 .page-header {
@@ -39,4 +41,48 @@ body {
 .page-header__caption {
   font-size: 2.5rem;
   margin-bottom: 0.1em;
+}
+
+.add-task-form {
+  width: 100%;
+  display: flex;
+  gap: 2rem;
+}
+
+.add-task-form__input {
+  font-size: 1rem;
+  flex-grow: 1;
+  border: none;
+  padding-bottom: 0.6em;
+  border-bottom: 0.1rem solid var(--light-secondary-color-grey);
+}
+
+.add-task-form {
+  margin-bottom: 1.5em;
+}
+
+.add-task-form__input:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.add-task-form__button {
+  background-color: var(--light-text-color);
+  border: none;
+  color: var(--light-primary-color);
+  border-radius: 0.5rem;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.add-task-form__button:hover,
+.add-task-form__button:active {
+  opacity: 0.8;
+}
+
+.task-list-container__caption {
+  text-align: center;
+  margin-bottom: 0.8em;
 }
