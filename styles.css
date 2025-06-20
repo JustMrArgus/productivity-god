@@ -16,3 +16,8 @@ html {
   --navy-light: #9db2bf;
   --navy-xlight: #dde6ed;
 }
+
+body {
+  background-color: var(--navy-dark);
+  color: var(--navy-xlight);
+}
